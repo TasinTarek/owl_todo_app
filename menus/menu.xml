@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="owl_menu"
+        name="Owl To Do App"
+        sequence="1"
+    />
+    
+    <menuitem
+        id="todo_menu"
+        name="To Do"
+        action="action_todo_list_view"
+        parent="owl_menu"
+        sequence="10"
+    />
+
+    <menuitem 
+    id="owl_todo_menu" 
+    name="Owl To Do" 
+    action="action_todo_list_js" 
+    parent="owl_menu" 
+    sequence="20" />
+
+</odoo>
